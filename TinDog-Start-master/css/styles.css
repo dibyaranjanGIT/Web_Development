@@ -1,0 +1,171 @@
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+}
+
+button{
+  color: #ff4c68;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+h2{
+  font-family: 'Montserrat';
+  font-size: 10rem;
+  font-weight: bolder;
+  text-align: center;
+  padding: 0 5% 3% 5%;
+  color: white;
+}
+h3{
+  font-family: "Ubuntu";
+}
+
+.row{
+padding: 3% 10% 3% 10%;
+}
+
+.buttons{
+  margin: 5% 2% auto auto;
+}
+
+.dog-image{
+  width: 50%;
+  transform: rotate(25deg);
+}
+
+.header{
+  font-family: "Ubuntu";
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.icon{
+  color: #ef8172;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+.fa{
+  padding: 0 0 2% 0;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  padding: 0 2% 0 0;
+}
+.press-logo{
+  width: 20%;
+  padding: 0 2% 0 2%;
+}
+
+.footer-button{
+  margin: 0 20px 0 0;
+}
+
+.social-icon{
+  margin: 0 10px 0 0;
+}
+
+.dog-price{
+  padding: 2% 0 2% 0;
+}
+
+.dogp-title{
+  color: white;
+  margin: 0 0 2% 0;
+}
+
+.card-body{
+  text-align: center;
+}
+
+.card-header{
+  text-align: center;
+}
+
+#title .nav-link{
+  color: white;
+  margin: 0 15px 0 0;
+}
+
+#pricing .pre-pricing{
+  text-align: center;
+  font-size: 2rem;
+  /* font-style: oblique; */
+  font-weight: 400;
+  color: #eb8f8f;
+  font-style: bolder;
+}
+
+#pricing .pre-pricing-break{
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#features{
+  padding: 7% 10%;
+  text-align: center;
+}
+#testimonials{
+  padding: 7% 10%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+#pricing{
+padding: 30px 0 30px 0;
+}
+
+#press{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 5% 5%;
+}
+
+#cta{
+  background-color:#ff4c68 ;
+  padding: 2% 0 2% 0;
+  text-align: center;
+}
+
+#footer{
+  padding: 3% 0 5% 0;
+  text-align: center;
+}
+
+#features p{
+  color:#ff4c68;
+}
+
+#pricing p{
+    color:#eb8f8f;
+}
+
+#pricing h3{
+    color:#ff4c68;
+}
+
+#pricing h2{
+    color:#ff4c68;
+}
+
+@media (max-width: 1028px ) {
+  .dog-image{
+    position : static;
+    transform: rotate(0);
+  }
+  .header{
+    text-align: center;
+  }
+}
